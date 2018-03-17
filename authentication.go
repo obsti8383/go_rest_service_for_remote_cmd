@@ -3,6 +3,8 @@ package main
 import "net/http"
 import "context"
 
+// the username of the logged in user is written to the http.Request.Context as
+// string using this const as key
 const ContextUsernameKey = "username"
 
 type authenticationHandler struct {

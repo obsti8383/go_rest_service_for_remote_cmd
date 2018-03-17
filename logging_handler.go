@@ -12,6 +12,7 @@ type loggingHandler struct {
 	handler http.Handler
 }
 
+// just a very first draft of a logging handler that only catches URL and HTTP method
 func (h loggingHandler) ServeHTTP(res http.ResponseWriter, req *http.Request) {
 	t := time.Now().String()
 	url := req.URL.EscapedPath()
