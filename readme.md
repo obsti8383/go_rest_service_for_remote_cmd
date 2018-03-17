@@ -11,5 +11,5 @@ Several important things are missing:
 * Real Authentication Backend
 * Configuration in config file
 * Command line parameters
-
+* Encoding of responses
 
