@@ -6,3 +6,10 @@ DON'T USE FOR PRODUCTION USE!
 
 DON'T USE ON COMPUTERS DIRECTLY CONNECTED TO THE INTERNET!
 
+Several important things are missing:
+* TLS support
+* Real Authentication Backend
+* Configuration in config file
+* Command line parameters
+
+
