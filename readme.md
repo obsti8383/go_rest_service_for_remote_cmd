@@ -1,4 +1,4 @@
-REST Web Service in Golang (Go) that allows access to predefined commands on the running operating system
+REST Web Service in Golang (Go) that allows access to predefined commands on the operating system
 
 Currently only static password in code
 
